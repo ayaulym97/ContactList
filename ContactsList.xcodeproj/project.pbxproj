@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3728C5EF2715DCEC00820AFD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3728C5EE2715DCEC00820AFD /* DetailView.swift */; };
 		37307E3126F4B9E6006F7F7E /* ContactsListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37307E3026F4B9E6006F7F7E /* ContactsListApp.swift */; };
 		37307E3326F4B9E6006F7F7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37307E3226F4B9E6006F7F7E /* ContentView.swift */; };
 		37307E3526F4B9E8006F7F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37307E3426F4B9E8006F7F7E /* Assets.xcassets */; };
 		37307E3826F4B9E8006F7F7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37307E3726F4B9E8006F7F7E /* Preview Assets.xcassets */; };
 		37307E4326F4B9E8006F7F7E /* ContactsListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37307E4226F4B9E8006F7F7E /* ContactsListTests.swift */; };
 		37307E4E26F4B9E8006F7F7E /* ContactsListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37307E4D26F4B9E8006F7F7E /* ContactsListUITests.swift */; };
+		37307E5F26F4C06F006F7F7E /* contactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37307E5E26F4C06F006F7F7E /* contactModel.swift */; };
+		3771B1DE26FB769F007B3359 /* contactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3771B1DD26FB769F007B3359 /* contactViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3728C5EE2715DCEC00820AFD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		37307E2D26F4B9E6006F7F7E /* ContactsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37307E3026F4B9E6006F7F7E /* ContactsListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListApp.swift; sourceTree = "<group>"; };
 		37307E3226F4B9E6006F7F7E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +49,8 @@
 		37307E4926F4B9E8006F7F7E /* ContactsListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37307E4D26F4B9E8006F7F7E /* ContactsListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListUITests.swift; sourceTree = "<group>"; };
 		37307E4F26F4B9E8006F7F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37307E5E26F4C06F006F7F7E /* contactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactModel.swift; sourceTree = "<group>"; };
+		3771B1DD26FB769F007B3359 /* contactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			children = (
 				37307E3026F4B9E6006F7F7E /* ContactsListApp.swift */,
 				37307E3226F4B9E6006F7F7E /* ContentView.swift */,
+				3728C5EE2715DCEC00820AFD /* DetailView.swift */,
+				3771B1DD26FB769F007B3359 /* contactViewModel.swift */,
+				37307E5E26F4C06F006F7F7E /* contactModel.swift */,
 				37307E3426F4B9E8006F7F7E /* Assets.xcassets */,
 				37307E3926F4B9E8006F7F7E /* Info.plist */,
 				37307E3626F4B9E8006F7F7E /* Preview Content */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				37307E3326F4B9E6006F7F7E /* ContentView.swift in Sources */,
+				3771B1DE26FB769F007B3359 /* contactViewModel.swift in Sources */,
 				37307E3126F4B9E6006F7F7E /* ContactsListApp.swift in Sources */,
+				3728C5EF2715DCEC00820AFD /* DetailView.swift in Sources */,
+				37307E5F26F4C06F006F7F7E /* contactModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
